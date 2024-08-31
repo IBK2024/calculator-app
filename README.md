@@ -9,7 +9,7 @@ This is a simple calculator app
 
 # Contribution Guidelines
 
-When contributing to `Frost GO`, whether on GitHub or in other community spaces:
+When contributing to `Calculator App`, whether on GitHub or in other community spaces:
 
 - Be respectful, civil, and open-minded.
 - Before opening a new pull request, try searching through the [issue tracker](https://github.com/IBK2024/calculator-app/issues) for known issues or fixes.
@@ -19,35 +19,35 @@ When contributing to `Frost GO`, whether on GitHub or in other community spaces:
 
 ### Prerequisites
 
-In order to not waste your time implementing a change that has already been declined, or is generally not needed, start by [opening an issue](https://github.com/IBK2024/calculator-app/issues/new/choose) describing the problem you would like to solve.
-Also in order to modify the code you will need to install python to check:
+To not waste your time implementing a change that has already been declined, or is generally not needed, start by [opening an issue](https://github.com/IBK2024/calculator-app/issues/new/choose) describing the problem you would like to solve.
+Also to modify the code you will need to install Python to check:
 ```bash
-  # macOS/linux
+  # macOS/Linux
   python3 -V
 
   # Windows
   # You can also use `py -3 -V`
   python -V
 ```
-It should return the python version if python is installed. The project uses version 3.10 and higher.
+It should return the Python version if python is installed. The project uses version 3.10 and higher.
 
 ### Setup your environment locally
-- First you will need to create a fork of the repository.
-- Then clone the forked repository using the command but replacing`repository` with the url of the forked repository:
+- First, you will need to create a fork of the repository.
+- Then clone the forked repository using the command but replacing `repository` with the URL of the forked repository:
   ```bash
   git clone <repository>
   cd <repository>
   ```
 - Then you will need to install poetry:
   ```bash
-  # macOS/linux
+  # macOS/Linux
   python3 -m pip install poetry
 
   # Windows
   # You can also use `py -3 -m pip install poetry`
   python -m pip install poetry
   ```
-- Then you will need to make sure he virtual environment is created in the project folder:
+- Then you will need to make sure the virtual environment is created in the project folder:
   ```bash
   # macOS/linux
   python3 -m poetry config virtualenvs.in-project true
@@ -58,7 +58,7 @@ It should return the python version if python is installed. The project uses ver
   ```
 - Then you will need to install dependencies:
   ```bash
-  # macOS/linux
+  # macOS/Linux
   python3 -m poetry install
 
   # Windows
@@ -68,7 +68,7 @@ It should return the python version if python is installed. The project uses ver
 - Then you will need to create a `.env` file in the env directory with the content of `.env.example` file in the same directory
 - Activate the virtual environment
   ```bash
-  # macOS/linux
+  # macOS/Linux
   python3 -m poetry shell
 
   # Windows
@@ -77,7 +77,7 @@ It should return the python version if python is installed. The project uses ver
   ```
 - If it does not automatically activate the virtual environment:
   ```bash
-  # MacOS/linux
+  # MacOS/Linux
   source .venv/Scripts/activate
 
   # Windows
@@ -88,7 +88,7 @@ It should return the python version if python is installed. The project uses ver
 Some commands to know. Make sure to activate the virtual environment first:
 - To run the application:
   ```bash
-  # macOS/linux
+  # macOS/Linux
   poetry run python3 main.py
 
   # Windows
