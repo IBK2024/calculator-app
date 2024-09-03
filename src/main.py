@@ -2,6 +2,7 @@ import time as _time
 
 
 def main() -> None:
+    """Main code"""
     while True:
         try:
             # !Get numbers
